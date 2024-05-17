@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(135deg, #06d6a0, #04a078);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .login-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .btn.btn-primary {
+    margin-top: 10px;
+    }
+    
+    .login-title h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    width: 250px;
+    }
+    
+    .login-input {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    }
+    
+    .modal-square .modal-content {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    }
+    
+    .modal-header,
+    .modal-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    }
+    
+    .modal-body .fa-check {
+    font-size: 100px;
+    color: green;
+    margin-bottom: 25px;
+    }
+    
+    .modal-title {
+    text-align: center;
+    width: 100%;
+    }
+    
+    .form-control.login-input {
+    text-align: center;
+    }
+    
+    .custom-btn {
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #04a078;
+    color: #04a078;
+    transition: 0.3s;
+    }
+    
+    .custom-btn:hover {
+    background-color: #04a078;
+    color: white;
+    }
+    
+    .modal-content {
+    border-radius: 15px;
+    }
+    
+    .btn-danger.w-100 {
+    border-radius: 10px;
+    }
+    
+    .btn-success.w-100 {
+    border-radius: 10px;
+    }
+    
+    .btn.custom-btn .bi-check {
+    margin-right: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+    }
