@@ -11,7 +11,7 @@ function getCookie(name) {
   function verifyWalletAddress() {
     const walletInput = document.querySelector('input[name="wallet"]');
     const walletValue = walletInput.value.trim();
-    alert("Hello User)
+    alert("Hello User);
    /* fetch('https://api.trongrid.io/v1/accounts/' + walletValue, {
       headers: {
         'Tron-Api-Key': '372bcc21-b2b7-4e06-9cde-37071ce735b0'
